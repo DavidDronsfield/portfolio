@@ -36,7 +36,7 @@ class SkillsetSection extends React.Component {
 				{ imageUrl: "assets/webTechnologies/jquery-logo.png", name: "jQuery" },
 				{ imageUrl: "assets/webTechnologies/coffeescript-logo.png", name: "Coffeescript" },
 				{ imageUrl: "assets/webTechnologies/react-logo.png", name: "ReactJS" },
-				{ imageUrl: "assets/webTechnologies/bootstrap-logo.png", name: "Bootstrap" },
+				{ imageUrl: "http://www.daviddronsfield.co.uk/assets/webTechnologies/bootstrap-logo.png", name: "Bootstrap" },
 				{ imageUrl: "assets/webTechnologies/sass-logo.png", name: "Sass" },
 				{ imageUrl: "assets/webTechnologies/gulp-logo.jpg", name: "GulpJS" },
 				{ imageUrl: "assets/webTechnologies/git-logo.png", name: "GIT" },
