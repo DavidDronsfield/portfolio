@@ -76,7 +76,7 @@ body {
 	position: relative;
 	height: 100vh;
 	color: #fff;
-	background-image: url("../assets/headerBackground-min.jpg");
+	background-image: url("../assets/headerBackground.jpg");
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
