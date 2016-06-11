@@ -30,18 +30,18 @@ class SkillsetSection extends React.Component {
 		super();
 		this.state = {
 			skills: [
-				{ imageUrl: "assets/webTechnologies/html5-logo2.png", name: "HTML5" },
-				{ imageUrl: "assets/webTechnologies/css3-logo2.png", name: "CSS3" },
+				{ imageUrl: "assets/webTechnologies/html5-logo.png", name: "HTML5" },
+				{ imageUrl: "assets/webTechnologies/css3-logo.png", name: "CSS3" },
 				{ imageUrl: "assets/webTechnologies/es6-logo.png", name: "Javascript" },
 				{ imageUrl: "assets/webTechnologies/jquery-logo.png", name: "jQuery" },
 				{ imageUrl: "assets/webTechnologies/coffeescript-logo.png", name: "Coffeescript" },
 				{ imageUrl: "assets/webTechnologies/react-logo.png", name: "ReactJS" },
-				{ imageUrl: "assets/webTechnologies/bootstrap-logo2.png", name: "Bootstrap" },
-				{ imageUrl: "assets/webTechnologies/sass-logo2.png", name: "Sass" },
+				{ imageUrl: "assets/webTechnologies/bootstrap-logo.png", name: "Bootstrap" },
+				{ imageUrl: "assets/webTechnologies/sass-logo.png", name: "Sass" },
 				{ imageUrl: "assets/webTechnologies/gulp-logo.jpg", name: "GulpJS" },
-				{ imageUrl: "assets/webTechnologies/git-logo2.png", name: "GIT" },
-				{ imageUrl: "assets/webTechnologies/node-logo2.jpg", name: "NodeJS" },
-				{ imageUrl: "assets/webTechnologies/mongodb-logo2.png", name: "MongoDB" }
+				{ imageUrl: "assets/webTechnologies/git-logo.png", name: "GIT" },
+				{ imageUrl: "assets/webTechnologies/node-logo.jpg", name: "NodeJS" },
+				{ imageUrl: "assets/webTechnologies/mongodb-logo.png", name: "MongoDB" }
 			]
 		}
 	}
