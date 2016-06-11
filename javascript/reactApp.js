@@ -30,18 +30,18 @@ class SkillsetSection extends React.Component {
 		super();
 		this.state = {
 			skills: [
-				{ imageUrl: "assets/webTechnologies/html5-logo.png", name: "HTML5" },
-				{ imageUrl: "assets/webTechnologies/css3-logo.png", name: "CSS3" },
-				{ imageUrl: "assets/webTechnologies/es6-logo.png", name: "Javascript" },
-				{ imageUrl: "assets/webTechnologies/jquery-logo.png", name: "jQuery" },
-				{ imageUrl: "assets/webTechnologies/coffeescript-logo.png", name: "Coffeescript" },
-				{ imageUrl: "assets/webTechnologies/react-logo.png", name: "ReactJS" },
-				{ imageUrl: "assets/webTechnologies/bootstrap-logo.png", name: "Bootstrap" },
-				{ imageUrl: "assets/webTechnologies/sass-logo.png", name: "Sass" },
-				{ imageUrl: "assets/webTechnologies/gulp-logo.jpg", name: "GulpJS" },
-				{ imageUrl: "assets/webTechnologies/git-logo.png", name: "GIT" },
-				{ imageUrl: "assets/webTechnologies/node-logo.jpg", name: "NodeJS" },
-				{ imageUrl: "assets/webTechnologies/mongodb-logo.png", name: "MongoDB" }
+				{ imageUrl: "assets/WebTechnologies/html5-logo.png", name: "HTML5" },
+				{ imageUrl: "assets/WebTechnologies/css3-logo.png", name: "CSS3" },
+				{ imageUrl: "assets/WebTechnologies/es6-logo.png", name: "Javascript" },
+				{ imageUrl: "assets/WebTechnologies/jquery-logo.png", name: "jQuery" },
+				{ imageUrl: "assets/WebTechnologies/coffeescript-logo.png", name: "Coffeescript" },
+				{ imageUrl: "assets/WebTechnologies/react-logo.png", name: "ReactJS" },
+				{ imageUrl: "assets/WebTechnologies/bootstrap-logo.png", name: "Bootstrap" },
+				{ imageUrl: "assets/WebTechnologies/sass-logo.png", name: "Sass" },
+				{ imageUrl: "assets/WebTechnologies/gulp-logo.jpg", name: "GulpJS" },
+				{ imageUrl: "assets/WebTechnologies/git-logo.png", name: "GIT" },
+				{ imageUrl: "assets/WebTechnologies/node-logo.jpg", name: "NodeJS" },
+				{ imageUrl: "assets/WebTechnologies/mongodb-logo.png", name: "MongoDB" }
 			]
 		}
 	}
