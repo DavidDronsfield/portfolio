@@ -17,7 +17,7 @@ class Skill extends React.Component {
 	render() {
 		return (
 			<figure>
-				<img src={this.props.src} />
+				<img src={this.props.src} alt={this.props.alt} />
 				<figcaption>{this.props.name}</figcaption>
 			</figure>
 		)
@@ -30,18 +30,18 @@ class SkillsetSection extends React.Component {
 		super();
 		this.state = {
 			skills: [
-				{ imageUrl: "assets/WebTechnologies/html5-logo.png", name: "HTML5" },
-				{ imageUrl: "assets/WebTechnologies/css3-logo.png", name: "CSS3" },
-				{ imageUrl: "assets/WebTechnologies/es6-logo.png", name: "Javascript" },
-				{ imageUrl: "assets/WebTechnologies/jquery-logo.png", name: "jQuery" },
-				{ imageUrl: "assets/WebTechnologies/coffeescript-logo.png", name: "Coffeescript" },
-				{ imageUrl: "assets/WebTechnologies/react-logo.png", name: "ReactJS" },
-				{ imageUrl: "assets/WebTechnologies/bootstrap-logo.png", name: "Bootstrap" },
-				{ imageUrl: "assets/WebTechnologies/sass-logo.png", name: "Sass" },
-				{ imageUrl: "assets/WebTechnologies/gulp-logo.jpg", name: "GulpJS" },
-				{ imageUrl: "assets/WebTechnologies/git-logo.png", name: "GIT" },
-				{ imageUrl: "assets/WebTechnologies/node-logo.jpg", name: "NodeJS" },
-				{ imageUrl: "assets/WebTechnologies/mongodb-logo.png", name: "MongoDB" }
+				{ imageUrl: "assets/WebTechnologies/html5-logo.png", name: "HTML5", alt:"HTML5 logo" },
+				{ imageUrl: "assets/WebTechnologies/css3-logo.png", name: "CSS3", alt:"CSS3 logo" },
+				{ imageUrl: "assets/WebTechnologies/es6-logo.png", name: "Javascript", alt:"ES6 logo" },
+				{ imageUrl: "assets/WebTechnologies/jquery-logo.png", name: "jQuery", alt:"jQuery logo" },
+				{ imageUrl: "assets/WebTechnologies/coffeescript-logo.png", name: "Coffeescript", alt:"Coffeescript logo" },
+				{ imageUrl: "assets/WebTechnologies/react-logo.png", name: "ReactJS", alt:"ReactJS logo" },
+				{ imageUrl: "assets/WebTechnologies/bootstrap-logo.png", name: "Bootstrap", alt:"Bootstrap logo" },
+				{ imageUrl: "assets/WebTechnologies/sass-logo.png", name: "Sass", alt:"Sass logo" },
+				{ imageUrl: "assets/WebTechnologies/gulp-logo.jpg", name: "GulpJS", alt:"Gulp logo" },
+				{ imageUrl: "assets/WebTechnologies/git-logo.png", name: "GIT", alt:"Git logo" },
+				{ imageUrl: "assets/WebTechnologies/node-logo.jpg", name: "NodeJS", alt:"NodeJS logo" },
+				{ imageUrl: "assets/WebTechnologies/mongodb-logo.png", name: "MongoDB", alt:"MongoDB logo" }
 			]
 		}
 	}
@@ -61,7 +61,8 @@ class SkillsetSection extends React.Component {
 		return this.state.skills.map((skill) => {
 			return ( <Skill
 				name={skill.name}
-				src={skill.imageUrl} />
+				src={skill.imageUrl}
+				alt={skill.alt} />
 			);
 		});
 	}
